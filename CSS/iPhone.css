@@ -1,0 +1,131 @@
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: black;
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding:0;
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust: none;
+	width:window.innerWidth;
+	border: none:
+	text-decoration: none;
+	overflow: hidden;
+} 
+
+#Container {
+	overflow:hidden;
+	width:100%;
+	height:100%;
+}
+
+#Photos {
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+#Photos ul {
+	overflow: none;
+	position:absolute;
+	white-space: nowrap;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	-webkit-transition-property: left;
+	-webkit-transition-duration: 1s;
+}
+
+#Photos ul.NA {
+	-webkit-transition-property: left;
+	-webkit-transition-duration: 1s;
+}
+
+#Photos ul li {
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+#Photos ul li div {
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	position: fixed;
+	overflow: none;
+	-webkit-transition-property: padding;
+	-webkit-transition-duration: 1	s;
+	-webkit-transition-timing-function: ease-out, cubic-bezier(0.5, 0.2, 0.3, 1.0);
+}
+
+.landscape {
+	width:100%;
+}
+
+.portrait {
+	height:100%;
+}
+
+.landscapeRotated {
+	width:100%;
+}
+
+.portraitRotated {
+	height:99.9%;
+}
+
+text {
+	position: absolute;
+	z-index: 10;
+	background-color:black;
+	color: white;
+}
+
+
+
+
+
+
+
+
+#smallPhotos ul {
+	overflow: none;
+	white-space: normal;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#smallPhotos ul li {
+	background-color: white;
+	overflow: hidden;
+	display: inline-block;
+	width: 235px;
+	height: 283px;
+}
+
+#smallPhotos ul li div {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	
+}
+
+.smalllandscape {
+	width: 235px;
+}
+
+.smallportrait {
+	height: 283px;
+}

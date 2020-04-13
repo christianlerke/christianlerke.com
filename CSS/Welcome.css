@@ -1,0 +1,279 @@
+@charset "UTF-8";
+body{
+	background-color:#000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	font-variant: small-caps;
+	color: #FFF;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	border: none;
+	text-decoration: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: lighter;
+	font-variant: small-caps;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#Container {
+	margin:auto;
+	padding:0;
+	width: 1125px;
+	text-align: center;
+}
+
+#Portfolio {
+	width: 1125px;
+	height: 472px;
+	padding: 0;
+	overflow: hidden;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#Portfolio #mask {
+	width: 1125px;
+	height: 472px;
+	padding: 0;
+	overflow: hidden;
+	background-image: url(../Images/Portfolio-Foreground.png);
+	background-repeat: no-repeat;
+	margin: 0;
+	position: absolute;
+	z-index: 2;
+}
+
+#Navigation {
+	position: absolute;
+	width: 1125px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	z-index: 4;
+	top: 432px;
+	text-align: center;
+}
+
+#Navigation ul {
+	width: 1125px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	overflow: none;
+	white-space: nowrap;
+}
+
+#Navigation ul li {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+
+#Navigation ul li a {
+	color: #555;
+	font-size: 19px;
+	padding: 0 7px;
+	margin: 0 20px;
+}
+
+#Navigation ul li a:hover {
+	color: #000;
+	background-color: #eee;
+	-webkit-border-radius: 7px;
+	-webkit-transition: color 0.5s easeInOut;
+	-webkit-transition: background-color 0.3s ease;
+	-moz-border-radius: 7px;
+}
+
+#Links-Container {
+	position: absolute;
+	top:0;
+	z-index: 3;
+	height: 399px;
+	width: 1076px;
+}
+
+#Links-Container #Links {
+	width: 1076px;
+	margin: 0 auto;
+	margin-top: 60px;
+	margin-left: 24px;
+	height: 399px;
+	overflow: hidden;
+	position: absolute;
+}
+
+#Links-Container #Links ul {
+	position: absolute;
+	list-style: none;
+	overflow: none;
+	white-space: nowrap;
+	padding: 0;
+	margin: 0;
+	height: 399px;
+	width: 8640px;
+}
+
+#Links-Container #Links ul li {
+	padding: 0;
+	margin: 0;
+}
+
+#Links-Container #Links ul li div {
+	margin:0;
+	padding:0;
+	width: 1080px;
+	height: 399px;
+	border: none;
+	float: left;
+}
+
+#Portfolio #Photos {
+	width: 1080px;
+	margin: 0 auto;
+	margin-top: 60px;
+	height: 399px;
+	overflow: hidden;
+	position: relative;
+}
+
+#Portfolio #Photos ul {
+	list-style-type: none;
+	position: relative;
+	list-style: none;
+	overflow: none;
+	white-space: nowrap;
+	padding: 0;
+	margin: 0;
+	height: 399px;
+	top: -28px;
+}
+
+#Portfolio #Photos ul li {
+	list-style-type: none;
+	list-style: none;
+	display: inline;
+	padding: 0;
+	margin: 0;
+	border:none;
+}
+
+#Container #Portfolio #Photos ul li img {
+	text-decoration: none;
+	margin:0;
+	padding:0;
+	width: 1080px;
+	height: 399px;
+	border: none;
+}
+
+#Recent-Events-Link {
+	position: absolute;
+	height: 30px;
+	width: 1125px;
+	margin: 0;
+	margin-top: 230px;
+	padding: 0;
+}
+
+#Recent-Events-Link div {
+	position: relative;
+	width: 350px;
+	height: 28px;
+	margin: auto;
+	padding: 0;	
+}
+
+#Recent-Events-Link a div {
+	position: relative;
+	width: 350px;
+	height: 28px;
+	margin: auto;
+	padding: 0;
+}
+
+#Spy-Tenerife {
+	float: right;
+	margin-right: 25px;
+	margin-top: 10px;
+}
+
+#Spy-Bristol {
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+#Recent-Events {
+	background-image: url(../Images/RecentEvents-Background.png);
+	width: 1125px;
+	height: 302px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.Recent-Spy {
+	width: 531px;
+	padding: 0;
+	margin: 0;
+	margin-top: 3px;
+	overflow: hidden;
+}
+
+.Recent-Spy ul {
+	padding:0;
+	padding-top: 3px;
+	margin: 0;
+	margin-left: 4px;
+	height: 200px;
+	width: 1000px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.Recent-Spy li {
+	padding:0;
+	text-align: center;
+	width: 175px;
+	list-style-type: none;
+	display: inline;
+	float: left;
+	clear: none;
+	margin: 0;
+	overflow: hidden;
+}
+
+.Recent-Spy li img {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	border: none;
+	margin:0;
+	margin-bottom: 10px; 
+}
+
+.Recent-Spy h1, a {
+	padding:0;
+	margin: 5px 0;
+	font-size: 16px;
+	color: #FFF;
+}
+
+.Recent-Spy h1 a:hover {
+	color: #555;
+	background-color: #fff;
+	padding: 0 5px;
+	-webkit-transition: color, background-color 0.3s ease-in-out;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-border-radius: 5px;
+}

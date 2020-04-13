@@ -1,0 +1,331 @@
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #000;
+	text-align: center;
+	color: #FFF;
+	margin: 0;
+	padding: 0;
+}
+#Container {
+	width: 1125px;
+	height: 858px;
+	margin: 0 auto;
+	background-image: url(../Portfolio/images/Portfolio-Background.png);
+	background-repeat: no-repeat;
+	z-index: 0;
+}
+
+#Container #mask {
+	width: 1125px;
+	height: 858px;
+	background-image: url(../Portfolio/images/Portfolio-Mask.png);
+	background-repeat: no-repeat;
+	z-index: 2;
+	padding: 0;
+	overflow: hidden;
+	margin: 0 auto;
+	position: absolute;
+}
+
+#Container #title {
+	z-index: 3;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: absolute;
+}
+
+#Container #buttons {
+	width: 1125px;
+	height: 78px;
+	z-index: 3;
+	padding: 0;
+	margin: auto;
+	overflow: hidden;
+	position: absolute;
+	top: 744px;
+	text-align: center;
+}
+
+#Container #buttons #Top {
+	width: 1080px;
+	height: 48px;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	overflow: none;
+}
+
+#Container #buttons #Top #Mail {
+	width: 94px;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+	text-align: left;
+	display: inline;
+	white-space: nowrap;
+}
+
+#Container #buttons #Top #PlayPause {
+	width: 120px;
+	padding: 0;
+	margin: 0;
+	margin-left: 386px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	display: inline;
+	white-space: nowrap;
+}
+
+#Container #buttons #Top #Grid {
+	width: 55px;
+	padding: 0;
+	margin: 0;
+	margin-left: 433px;
+	overflow: hidden;
+	position: relative;
+	text-align: right;
+	display: inline;
+	white-space: nowrap;
+}
+
+#Container #buttons #Bottom {
+	width: 1080px;
+	height: 30px;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	overflow: none;
+}
+
+#Container #buttons #Bottom img {
+	padding: 0;
+	margin: 0 17px;
+	border: none;
+	opacity: 0.5;
+}
+
+#Container #buttons #Top img {	
+	text-decoration: none;
+	margin: 0;
+	padding:0;
+	border: none;
+	opacity: 0.5;
+}
+
+#Portfolio {
+	width: 1080px;
+	height: 600px;
+	padding: 0;
+	padding-top: 148px;
+	overflow: visible;
+	margin: 0 auto;
+}
+
+#Portfolio #Photos {
+	width: 1080px;
+	margin: 0 auto;
+	padding: 0;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+}
+
+#Portfolio #Photos ul {
+	list-style-type: none;
+	position: relative;
+	list-style: none;
+	overflow: none;
+	white-space: nowrap;
+	padding: 0;
+	margin: 0;
+	height: 600px;
+	width:1080px;
+	overflow:hidden;
+}
+
+#Portfolio #Photos ul li {
+	list-style-type: none;
+	list-style: none;
+	display: inline;
+	padding: 0;
+	margin: 0;
+	border:none;
+	width:1080px;
+	height: 600px;
+}
+
+#Portfolio #Photos ul li img {
+	text-decoration: none;
+	margin:0;
+	padding:0;
+	border: none;
+}
+
+#Portfolio #VideoControls {
+	padding: 0;
+	margin: 0;
+	border:none;
+	width:1080px;
+	height: 25px;
+	position: absolute;
+	top: 728px;
+	text-align: center;
+	z-index:100;
+	overflow: visible;
+}
+
+#Portfolio #VideoControls #scrubber-range {
+	padding: 0;
+	margin: 0;
+	margin-left: 18px;
+	border:none;
+	width:1044px;
+	height: 21px;
+	position: absolute;
+	top: 2px;
+	z-index: 5;
+	overflow: visible;
+}
+
+#Portfolio #VideoControls #scrubber {
+	padding: 0;
+	margin: 0;
+	border:none;
+	width:12px;
+	height: 21px;
+	position: absolute;
+	opacity: 0;
+	background-image: url(../Portfolio/Video/Thumbs/Video-Scrubber.png);
+	background-repeat: no-repeat;
+	z-index: 5;
+	overflow: visible;
+}
+
+#Portfolio #VideoControls #ProgressBackground{
+	padding: 0;
+	margin: 0;
+	margin-left: 18px;
+	border:none;
+	width:1044px;
+	height: 5px;
+	position: absolute;
+	top: 15px;
+	background-color: black;
+	opacity: 0.2;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-right-radius: 0;
+	-webkit-border-top-left-radius: 0;
+}
+
+#Portfolio #VideoControls #loadBar{
+	padding: 0;
+	margin: 0;
+	margin-left: 18px;
+	border:none;
+	width:10px;
+	height: 5px;
+	position: absolute;
+	top: 15px;
+	background-color: black;
+	opacity: 0.3;
+	-webkit-border-bottom-right-radius: 2px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-right-radius: 2px;
+	-webkit-border-top-left-radius: 0;
+}
+
+#Portfolio #VideoControls #progressBar {
+	padding: 0;
+	margin: 0;
+	margin-left: 18px;
+	border:none;
+	width: 10px;
+	height: 5px;
+	position: absolute;
+	top: 15px;
+	background-color: black;
+	opacity: 0.7;
+	-webkit-border-bottom-right-radius: 2px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-top-right-radius: 2px;
+	-webkit-border-top-left-radius: 0;
+}
+
+#All-Container {
+	width: 1125px;
+	height: 580px;
+	z-index: 4;
+	padding: 0;
+	margin: 0 auto;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	text-align: center;
+	top: 148px;
+}
+
+#All-Container #All {
+	width: 1040px;
+	margin: 0 auto;
+	padding: 0;
+	height: 580px;
+	position: relative;
+	z-index: 5;
+	top: 20px;
+}
+
+#All-Container #All ul {
+	list-style-type: none;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	height: 600px;
+	width: 1080px;
+	text-align: left;
+}
+
+#All-Container #All ul li {
+	list-style-type: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-right: 15px;
+	border:none;
+	display: inline;
+	width:192px;
+	height: 125px;
+	text-align: left;
+}
+
+#All-Container #All ul li a {
+	list-style-type: none;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border:none;
+	text-align: left;
+	text-decoration: none;
+}
+
+#All-Container #All ul li a img {
+	text-decoration: none;
+	margin:0;
+	padding:0;
+	border: none;
+	margin-bottom: 15px;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 10px black;
+}
+
+Video {
+	padding: 0;
+	margin: 0;
+	border:none;
+}
